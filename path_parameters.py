@@ -5,7 +5,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/userdata/{id}") #decorator is used to create an endpoint at the path that listens to GET commands
-#{id}
 def data_on_user(id:int): #restricts id to only be a integer value
     if id == 1: #if id is 1 then when going onto the path then this is returned
         return {"data":
