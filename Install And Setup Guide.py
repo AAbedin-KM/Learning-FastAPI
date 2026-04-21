@@ -10,7 +10,10 @@
 
 #Create virtual environment:
   #copy and paste into terminal:
-  python3 -m venv fastapi_env #fastapi_venv is just the name of the virutal environment so it can be anything
+  python3 -m venv fastapi_env 
+  #fastapi_venv is just the name of the virutal environment so it can be anything
+  #for every metion of the name during this process you replace with the name of the virtual environment you have created if you decided to change 
+  #the name of the vritual environment to a name different from what it is here.
 
 #To Activate Virtual Environment:
   #if on MacOS/Linux:
