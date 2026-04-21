@@ -18,10 +18,13 @@ def data_on_user(id:int): #restricts id to only be a integer value and allows th
          "id" : id}}
 
 #if the following path is written then the following function is not returned 
-#this is because aftr the dynamic route , FastAPI will attempt to match welcome to the integer data type 
+#this is because after the dynamic route , FastAPI will attempt to match welcome to the integer data type 
 #this happens as everything a path is opened up , FastAPI reads th code line by line and so id being set to being only an integer is done before userdata/welcome is made
 #this would fail leading to different output than from what is wanted
 @app.get("/userdata/welcome")
 def welcome_user():
     return "welcome user"
+
+#in summary a path parameter is a value which can be changed and is present on the decorator which creates an enpoint at a path 
+#the parameter can be restricted to different data types and be used in the following function after a decorator
 
