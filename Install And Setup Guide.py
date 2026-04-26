@@ -32,7 +32,9 @@
   pip3 install uvicorn[standard]
 
 #To Start Development Server:
-  #copy and paste into terminal:
+  #make an instance of FastAPI
+  app = FastAPI()
+  #then copy and paste into terminal:
   uvicorn main:app --reload
 
 #To see your API running click on the localhost link which will be outputted on the terminal whenever u start the development server
