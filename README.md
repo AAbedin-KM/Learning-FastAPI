@@ -34,4 +34,14 @@ FastAPI is a modern Python web framework for building APIs quickly with automati
   - Create User
   - Hash Password
   - Show User
-  - more will come...
+  - how to connect two multiple databases together
+  - login and verify system
+  - JWT access token
+    
+- How to make coding FastAPi backend as efficient as possible:
+  - API Routing
+  - API Route operators
+  - Blog and user repository
+
+Disclaimer:
+  - any commented code which doesnt seem to be accompanied with an explanation has been commented as a more efficient way to do the same process has been done later
