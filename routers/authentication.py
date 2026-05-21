@@ -17,7 +17,7 @@ userinfo = tables.user_info
 
 @router.post("/login")
 def login(request : OAuth2PasswordRequestForm = Depends(), db : Session = Depends(get_db)):
-    return authentication_end.login(request , db) #the function refers to the repo where the actual function is written 
+    return authentication_end.login(request , db) #the function refers to the repo folder which contains a a file where the actual function is written 
 
 
     
