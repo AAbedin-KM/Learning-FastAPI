@@ -44,4 +44,4 @@ FastAPI is a modern Python web framework for building APIs quickly with automati
   - Blog and user repository
 
 - Disclaimer:
-  - any commented code which doesnt seem to be accompanied with an explanation has been commented as a more efficient way to      do the same process has been done later
+  - any commented code has been commented as a more efficient way to do the same process has been done later
