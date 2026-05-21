@@ -24,6 +24,8 @@ app.include_router(post_router.router)
 app.include_router(user_router.router)
 app.include_router(authentication_router.router)
 
+#all this code has been commented as a mroe efficient way to do this has been doen via api routing:
+
 # @app.post("/database_addition", status_code=201, tags=["posts"])
 # def create_new_data(request: post, db: Session = Depends(get_db)):
 #     new_favourite_character_entry = posts_table(
